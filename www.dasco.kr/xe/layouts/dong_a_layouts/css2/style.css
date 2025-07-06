@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+*{ margin:0; padding:0; }
+
+body {/*overflow-x: hidden;*/} 
+
+
+ 
+#slider {position:relative;margin:0 auto;padding:0;list-style:none;width:100%;height:580px;}
+#slider li {display:none;position:absolute;left:0;top:0}
+
+#bxslider1 {position:relative;margin:0 auto;padding:0;list-style:none;width:100%;height:580px;}
+#bxslider1 li {position:absolute;left:0;top:0}
+
+.prev_btn {margin-top:-65px; position:absolute; top:50%; left:3%;  z-index: 15; width:47px; height:77px; cursor:pointer;}
+.next_btn {margin-top:-65px; position:absolute; top:50%; right:3%;  z-index: 15; width:47px; height:77px;cursor:pointer;}
+.prev_btn { background:url(../images/visual_prev.png) left top no-repeat;}
+.next_btn { background:url(../images/visual_next.png) left top no-repeat;}
+
+#bxslider1 li,
+.slides li { width:100%; height:500px; position:relative; float:left;}
+#bxslider1 li a,
+.slides li a{ display: block; height: 500px; }
+#bxslider1 li dl { width:1180px; margin:160px auto 0; padding-left:32px;}
+#bxslider1 li dl dt { font-size:50px; color:#fff; font-weight:500; text-align:center; padding-bottom:60px; text-shadow:1px 1px 1px #333;}
+#bxslider1 li dl dd { font-size:48px; color:#fff; font-weight:bold; text-align:center; text-shadow:1px 1px 1px #333;}
+/*메인슬라이드_kr*/
+#bxslider1 li.mainimg01,
+.flexslider ul.slides li.mainimg01 {  background: url(../images/main_03.jpg) center bottom no-repeat;}
+#bxslider1 li.mainimg02,
+.flexslider ul.slides li.mainimg02 { background: url(../images/main_02.jpg) center bottom no-repeat; }
+#bxslider1 li.mainimg02 dl { margin-top: 170px;}
+
+#bxslider1 li.mainimg02 span.main_img02_text { font-size: 60px; font-weight: normal;}
+
+#bxslider1 li.mainimg03,
+.flexslider ul.slides li.mainimg03 { background: url(../images/main_01.jpg) center bottom no-repeat;}
+#bxslider1 li.mainimg03 dl { margin-top: 190px;}
+
+/*메인슬라이드_en*/
+#bxslider1 li.mainimgen01,
+.flexslider ul.slides li.mainimgen01 {  background: url(../images/main_en_03.jpg) center bottom no-repeat;}
+#bxslider1 li.mainimgen02,
+.flexslider ul.slides li.mainimgen02 { background: url(../images/main_en_02.jpg) center bottom no-repeat; }
+#bxslider1 li.mainimgen02 dl { margin-top: 170px;}
+
+#bxslider1 li.mainimgen02 span.main_img02_text { font-size: 60px; font-weight: normal;}
+
+#bxslider1 li.mainimgen03,
+.flexslider ul.slides li.mainimgen03 { background: url(../images/main_en_01.jpg) center bottom no-repeat;}
+#bxslider1 li.mainimgen03 dl { margin-top: 190px;}
+
+
+
+
+.prev_btn {margin-top:-65px; position:absolute; top:50%; left:3%;  z-index: 15; width:47px; height:77px; cursor:pointer;}
+.next_btn {margin-top:-65px; position:absolute; top:50%; right:3%;  z-index: 15; width:47px; height:77px;cursor:pointer;}
+
+.prev_btn:hover { background:url(../images/visual_prev_ov.png) left top no-repeat;}
+.next_btn:hover { background:url(../images/visual_next_ov.png) left top no-repeat;}

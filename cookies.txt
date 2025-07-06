@@ -1,0 +1,7 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.dasco.kr	TRUE	/	FALSE	1999999999	PHPSESSID	fvmac6d48n0s8715h2upi4af92
+www.dasco.kr	TRUE	/	FALSE	1999999999	mobile	false
+www.dasco.kr	TRUE	/	FALSE	1999999999	user-agent	a46c089aa5634597cc265050ba58d8e1
+www.dasco.kr	TRUE	/	FALSE	1999999999	XE_REDIRECT_URL	http%3A%2F%2Fwww.dasco.kr%2Fxe%2Findex.php%3Fmid%3Dregister%26act%3DdispMemberSignUpForm
+

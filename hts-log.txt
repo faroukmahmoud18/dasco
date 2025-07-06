@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 06 Jul 2025 14:51:55 at https://www.dasco.kr/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.dasco.kr/ -O1 "C:\My Web Sites\https___www.dasco.kr_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:51:57	Warning: 	Found for https://www.dasco.kr/robots.txt
+14:51:57	Warning: 	File has moved from https://www.dasco.kr/robots.txt to http://error.blueweb.co.kr/404.html?ret_url=http%3A%2F%2Fwww.dasco.kr%2Frobots.txt
+14:53:00	Warning: 	Found for https://error.blueweb.co.kr/robots.txt
+14:53:00	Warning: 	File has moved from https://error.blueweb.co.kr/robots.txt to http://error.blueweb.co.kr/404.html?ret_url=http%3A%2F%2Ferror.blueweb.co.kr%2Frobots.txt
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 49 seconds : 371 links scanned, 368 files written (77539932 bytes overall) [68052335 bytes received at 297171 bytes/sec], 35164400 bytes transferred using HTTP compression in 14 files, ratio 72%, 6.4 requests per connection
+(No errors, 4 warnings, 0 messages)
